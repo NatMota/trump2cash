@@ -46,6 +46,7 @@ MID_TO_TICKER_QUERY = (
     ' } GROUP BY ?companyLabel ?rootLabel ?tickerLabel ?exchangeNameLabel'
     ' ORDER BY ?companyLabel ?rootLabel ?tickerLabel ?exchangeNameLabel')
 
+# excluding media agencies
 
 class Analysis:
     """A helper for analyzing company data in text."""

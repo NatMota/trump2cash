@@ -15,13 +15,13 @@ from logs import Logs
 
 # The keys for the Twitter account we're using for API requests and tweeting
 # alerts (@Trump2Cash). Read from environment variables.
-TWITTER_ACCESS_TOKEN = getenv("TWITTER_ACCESS_TOKEN")
-TWITTER_ACCESS_TOKEN_SECRET = getenv("TWITTER_ACCESS_TOKEN_SECRET")
+TWITTER_ACCESS_TOKEN = getenv("755694603819425792-X7s51Ou4FgzhiqD6lpdRVsudmKVEL6T")
+TWITTER_ACCESS_TOKEN_SECRET = getenv("AS5VZ0105uSCUP8R0JLQJeJCfLV1Dw4jw8oYp2iA04dZj")
 
 # The keys for the Twitter app we're using for API requests
 # (https://apps.twitter.com/app/13239588). Read from environment variables.
-TWITTER_CONSUMER_KEY = getenv("TWITTER_CONSUMER_KEY")
-TWITTER_CONSUMER_SECRET = getenv("TWITTER_CONSUMER_SECRET")
+TWITTER_CONSUMER_KEY = getenv("lexe6yK9JRXttoPnks7SrJI0H")
+TWITTER_CONSUMER_SECRET = getenv("YvlZ7xZJnfBQctEPatB2cIUIYyei5r788GxuoamCPhkOTCpP0M")
 
 # The user ID of @realDonaldTrump.
 TRUMP_USER_ID = "25073877"

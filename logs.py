@@ -18,10 +18,10 @@ LOGS_FORMAT = ("%(asctime)s "
                "%(message)s")
 
 # The path to the log file for local logging.
-LOG_FILE = "/tmp/trump2cash.log"
+LOG_FILE = "/Users/Nat/Documents/GitHub/trump2cash.log"
 
 # The path to the log file for the local fallback of cloud logging.
-FALLBACK_LOG_FILE = "/tmp/trump2cash-fallback.log"
+FALLBACK_LOG_FILE = "/Users/Nat/Documents/GitHub/trump2cash-fallback.log"
 
 # The maximum size in bytes for each local log file.
 MAX_LOG_BYTES = 10 * 1024 * 1024

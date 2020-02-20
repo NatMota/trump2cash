@@ -11,7 +11,7 @@ from trading import Trading
 from twitter import Twitter
 
 # Whether to send all logs to the cloud instead of a local file.
-LOGS_TO_CLOUD = True
+LOGS_TO_CLOUD = False
 
 # The duration of the smallest backoff step in seconds.
 BACKOFF_STEP_S = 0.1
@@ -29,7 +29,7 @@ BACKOFF_RESET_S = 30 * 60
 MONITOR_HOST = "0.0.0.0"
 
 # The port for the monitor Web server.
-MONITOR_PORT = 80
+MONITOR_PORT = 81
 
 # The message returned by the monitor Web server.
 MONITOR_MESSAGE = "OK"
@@ -99,8 +99,8 @@ class Main:
         trading.make_trades(companies)
 
         # Tweet about it.
-        twitter = Twitter(logs_to_cloud=LOGS_TO_CLOUD)
-        twitter.tweet(companies, tweet)
+       # twitter = Twitter(logs_to_cloud=LOGS_TO_CLOUD)
+       # twitter.tweet(companies, tweet)
 
     def run_session(self):
         """Runs a single streaming session. Logs and cleans up after
