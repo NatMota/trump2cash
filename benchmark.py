@@ -4,10 +4,13 @@ from tqdm import tqdm
 from analysis import Analysis
 from trading import Trading
 from twitter import Twitter
+import os
+
+#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r'C:\Users\Nat\Documents\GitHub\trump2cash\My First Project-aee9ee32d2aa.json'
 
 # TODO: Consider going back further, e.g. 621669173534584833.
 # The first tweet ID to include.
-SINCE_TWEET_ID = "806134244384899072"
+SINCE_TWEET_ID = "1078026520021544960"
 
 # The initial amount in dollars for the fund simulation.
 FUND_DOLLARS = 100000
@@ -239,6 +242,7 @@ if __name__ == "__main__":
     print()
     print("Time | Trade | Gain | Value | Return | Annualized")
     print("-----|-------|------|-------|--------|-----------")
+    #print (events)
     start_date = events[0]["timestamp"]
     value = FUND_DOLLARS
     print("*Initial* | - | - | *%s* | - | -" % format_dollar(value))

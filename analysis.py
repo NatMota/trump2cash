@@ -6,6 +6,10 @@ from urllib.parse import quote_plus
 
 from logs import Logs
 from twitter import Twitter
+import os
+
+#os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r'C:\Users\Nat\Documents\GitHub\trump2cash\My First Project-aee9ee32d2aa.json'
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = './My First Project-aee9ee32d2aa.json'
 
 # The URL for a GET request to the Wikidata API. The string parameter is the
 # SPARQL query.
